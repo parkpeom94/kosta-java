@@ -1,0 +1,57 @@
+	**3day 주요 목차**
+	Encapsulation 개념 
+   	setter / getter 
+   	Constructor 생성자 문법 
+   	UML 중 Class Diagram
+	Java Data Type  - 기본형 , 참조형
+	---------------------------------------------------------
+	
+	Object Oriented Concept 객체 지향 개념 
+	:객체를 시스템의 기본 단위로 하여 객체간의 관계를 중심으로 분석 설계 구현하는 프로그래밍 개념
+	
+	Object Oriented 주요 개념 ( key Concept ) 
+	- 응집도( Cohesion) 와 결합도(Coupling)
+	- Encapsulation 캡슐화
+	- Inheritance 상속
+	- Ploymorphism 다형성
+	---------------------------------------------------------
+	- 응집도와 결합도
+		: High Cohesion(높은 응집도) low Coupling(낮은 결합도)
+													Loose Coupling( 느슨한 결합도)
+		응집도 -> 모듈(단위:객체) 내부에서 모듈의 고유한 목적에 집중하는 정보 -> 높아야 된다
+		결합도 -> 모듈간의 상호 의존도 
+		
+- Encapsulation 캡슐화
+	:	public interface , private implementation
+		모듈을 인터페이스(소통부) 와 구현부로 분리해서 설계,개발
+		인터페이스는 공개하고 구현부는 은닉한다.
+		
+		why? Information Hiding 정보 은닉 , 정보 보호 
+				->	외부에 공개할 필요가 없는 정보 및 주요 로직을 감추어져서 보호한다 
+			왜쓰는가 ? 소통부(인터페이스)로 상호작용 하므로 구현부가 변경되어도 외부 영향이 최소화 된다.
+			->	결합도를 느슨하게 하여 유지보수성이 향상된다
+			
+			
+			소통부(인터페이스)를 파악하면 구현부를 몰라도 사용이 가능하다
+			-> 생산성이 향상된다
+			ex) Google Map API(Application Programming Interface)를 이용해
+				지도 서비스를 제공함	-> Google Map 의 내부 구현부를 몰라도 인터페이스만 파악해 
+														지도 서비스를 적용할 수 있다
+														 
+				
+			
+			
+			
+			
+			
+			
+			
+			  
+		
+	
+	
+	
+		
+	
+	
+	
